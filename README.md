@@ -1,4 +1,4 @@
-# super_simple_stock_market
+# Simple-Stock-Market-Redux
 A super simple stock market, build from a test specification.
 
 ## To Start
