@@ -1,0 +1,23 @@
+#container {
+    height: 100vh;
+    display: grid;
+    grid-gap: $gutter;
+    padding: $gutter;
+    padding-bottom: 1.5 * $gutter;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas: "PH PH" "NTF FT" "NTF TT";
+}
+  
+#page-header {
+    grid-area: PH;
+    text-align: center;
+    align-items: center;
+}
+
+#new-trade-form  { grid-area: NTF; }
+
+#formulas-table { grid-area: FT; }
+
+#trades-table { grid-area: TT; }
